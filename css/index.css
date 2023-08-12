@@ -2,13 +2,24 @@
     display: inline-block;
     vertical-align: top;
 }
+
 .fancyName {
+    display: inline-block;
+    text-align: left;
+    font-size: 25px;
     margin:0;
     padding: 0;
-    text-align: left;
+    position: absolute;
+    margin-top: 70px;
+    padding-left: 50px;
+    color:#FCEDD4;
+    z-index: 1;
+    font-family: 'Over the Rainbow', sans-serif;
+    
 }
-.nav {
-    width: 73%;
+nav {
+    display: inline-block;
+    width: 96%;
     padding: 1%;
 }
 ul {
@@ -33,6 +44,7 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    
 }
 #hero-text-title {
     text-align: center;
