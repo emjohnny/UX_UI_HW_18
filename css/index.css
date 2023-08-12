@@ -118,8 +118,18 @@ a {
     font-family: 'Kantumruy', sans-serif;
 }
 
-
-
+#textBoxTitle1 {
+    text-overflow: "square1";
+    white-space: nowrap;
+}
+#textBoxTitle2 {
+    text-overflow: "square1";
+    white-space: nowrap;
+}
+#textBoxTitle3 {
+    text-overflow: "square1";
+    white-space: nowrap;
+}
 .textBox {
     display: inline-block;
     width: 80%;
