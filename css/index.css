@@ -10,7 +10,7 @@
     margin:0;
     padding: 0;
     position: absolute;
-    margin-top: 70px;
+    margin-top: 40px;
     padding-left: 50px;
     color:#FCEDD4;
     z-index: 1;
@@ -21,6 +21,10 @@ nav {
     display: inline-block;
     width: 96%;
     padding: 1%;
+    position: absolute;
+    margin-top: 70px;
+    z-index: 1;
+    color: #FCEDD4;
 }
 ul {
     list-style-type: none;
@@ -32,6 +36,8 @@ ul {
 li{
     display: inline;
     padding: 8px;
+    font-family: 'Kantumruy', sans-serif;
+                                                
 }
 
 body, html {
@@ -53,8 +59,9 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #FCEDD4;
-    font-family:Arial, Helvetica, sans-serif;
     font-size: 38px;
+    font-family: 'Kantumruy', sans-serif;
+                                                
 }
 #hero-text-main {
     text-align: center;
@@ -63,7 +70,7 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #FCEDD4;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Kantumruy', sans-serif;
     font-size: 40px;
 }
 #photoCredit {
@@ -72,6 +79,8 @@ body, html {
     right: 0;
     font-size: 17px;
     color:  #EF8432;
+    font-family: 'Kantumruy', sans-serif;
+                                                
 }
 a {
     color: #EF8432
@@ -80,12 +89,23 @@ a {
     text-align: center;
     color: #041523;
     font-size: 36px;
+    font-family: 'Kantumruy', sans-serif;
+                                                
 }
 .title2 {
     text-align: center;
     color: #041523;
     font-size: 25px;
+    font-family: 'Kantumruy', sans-serif;
+                                                
 }
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+}
+
+
 .square1, .square2, .square3 {
     flex-direction: center;
     justify-content: center;
@@ -97,6 +117,7 @@ a {
     border-radius: 35px;
     background-color: #FCEDD4;
     margin: 5%;
+    font-family: 'Kantumruy', sans-serif;
 }
 #caseStudy1 {
     align-items: center;
@@ -111,6 +132,8 @@ a {
     margin: auto;
     width: 20%;
     padding: 10px;
+    font-family: 'Kantumruy', sans-serif;
+                                                
 }
 .imageV {
     max-width: 25%;
@@ -131,6 +154,8 @@ a {
     margin: auto;
     width: 20%;
     padding: 10px;
+    font-family: 'Kantumruy', sans-serif;
+                                                
 }
 .imageP {
     max-width: 25%;
@@ -142,6 +167,8 @@ a {
     float: center;
     margin: auto;
     width: 60%;
+    font-family: 'Kantumruy', sans-serif;
+                                                
 
 }
 .myFace, .socialImgs {
