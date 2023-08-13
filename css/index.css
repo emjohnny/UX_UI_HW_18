@@ -157,10 +157,13 @@ a {
 }
 
 .workGrid {
-display: gird;
-grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows: 520px 520px;
-
+    display: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 25% 25%;
+    grid-template-areas: 
+    "imageV imageV texV textV textV"
+    "textP textP textP imageP imageP"
+    ;
 }
 
 
