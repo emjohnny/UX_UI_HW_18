@@ -161,10 +161,28 @@ a {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 25% 25%;
     grid-template-areas: 
-    "imageV imageV texV textV textV"
+    "imageV imageV textV textV textV"
     "textP textP textP imageP imageP"
     ;
 }
+
+@media only screen and (max-width: 600) {
+    .flexContainer{
+        display: column;
+        width: 100%;
+    }
+    .workGrid {
+        grid-template-rows: 25% 25% 25% 25%;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "textV"
+        "imageV"
+        "textP"
+        "imageP"
+        ;
+    }
+}
+
 
 
 .imageV {
@@ -204,12 +222,18 @@ a {
 
 }
 .myFace, .socialImgs {
-    float: right;
+    
     width: 40%;
     padding: 10px;
+
+}
+.myFace {
+    float: left;
 }
 .socialImgs {
     top: 60%;
+    float: right;
+    margin-top: 250px;
 }
 
 .phoneNum {
@@ -219,20 +243,18 @@ a {
 }
 
 .copyright {
-    text-align: center;
-    float: center;
-    margin: auto;
+   width: 100%;
+   height: 80px;
+   padding: 1px;
+   -moz-border-radius: 35px;
+   border-radius: 35px;
+   bottom: 2;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 
 
 
-  /*  margin: 0px 5%;
-    display: grid;
-    grid-template-rows: 300px 300px 300px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "imageV textV textV"
-    "imageV imageV imageP"
-    "textP textP imageP"
-    ;*/
+  
