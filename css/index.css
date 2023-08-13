@@ -157,7 +157,9 @@ a {
 }
 
 .workGrid {
-    display: grid;
+display: gird;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 520px 520px;
 
 }
 
@@ -218,3 +220,16 @@ a {
     float: center;
     margin: auto;
 }
+
+
+
+
+  /*  margin: 0px 5%;
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "imageV textV textV"
+    "imageV imageV imageP"
+    "textP textP imageP"
+    ;*/
