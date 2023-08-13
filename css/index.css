@@ -155,6 +155,13 @@ a {
     font-family: 'Kantumruy', sans-serif;
                                                 
 }
+
+.workGrid {
+    display: grid;
+
+}
+
+
 .imageV {
     max-width: 25%;
     max-height: 15%;
